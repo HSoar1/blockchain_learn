@@ -7,5 +7,4 @@ import (
 
 func OpenServer() {
 	logs.Fatal(http.ListenAndServe(":8080", nil))
-
 }
