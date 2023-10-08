@@ -13,3 +13,7 @@ func CreateLogFile() {
 	defer logfile.Close()
 	log.SetOutput(logfile)
 }
+
+func Fatal(v ...interface{}) {
+	log.Fatal(v...)
+}

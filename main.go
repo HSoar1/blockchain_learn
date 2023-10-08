@@ -1,9 +1,9 @@
 package main
 
 import (
-	"log"
+	"main/handler"
 )
 
 func main() {
-	log.Print("Proc func main")
+	handler.OpenServer()
 }
